@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SUGAR RUSH - Your Creation</title>
+<link rel="stylesheet" type="text/css" href="css/yourcreation-final.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<style>
+@import url("Slabo27px_Regular/stylesheet.css");
+
+.jumbotron{
+	background-image:url(images/slider.png); 
+	background-size:cover; 
+	background-position:center; 
+}
+
+.navbar-inverse {
+  background-color:rgba(0,0,0,.65);
+  border-radius:40px;
+  z-index:999;
+  /*border-color: #CCC;*/
+}
+
+label{
+	font-family: "Slabo27px Regular";
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.form_control{
+	width:100%;
+	height:60px;
+	margin-bottom:20px;
+	padding-left:10px;
+	background-color:#fff;
+	position:relative;
+	top:-20px;	
+}
+</style>
+<script>
+function loadFunction(){
+	alert("You have Successfully placed an order for a cake. We will contact you within 24hrs.");
+}
+</script>
+</head>
+
+<body>
+<!--HEADER_SLIDER-->
+<div class="jumbotron">
+	<div style="padding-right: 0; padding-left: 0;" class="container">
+    	<nav class="navbar navbar-inverse">
+        	<div class="container-fluid">
+            	<div class="navbar-header">
+                	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    	<span class="sr-only">Toggle navigation</span>
+                    	<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>  
+                        <a class="navbar-brand" href="#">
+                            <span><img src="images/logo_final.png" width="107" height="80" alt="sugar_rush_logo"/></span>
+                            <span style="font-family: 'Rancho Regular'; font-size: 28px; color: rgb(241,9,9); font-weight: bold; position: relative; top: 5px;" class="nm">SUGAR RUSH</span>
+                        </a>         
+                </div>
+                
+                <div id="navbar" class="navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                  <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="index.html">Welcome</a></li>
+				  <li class="dropdown">
+                    <a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #know_us">Know Us</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #review">Testimonials</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #team">Meet Our Team</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Creations <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #new_arrivals">New Arrivals</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #our_creation">Our Creation</a></li>
+                      <li class="active"><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #your_creation">Your Creation</a></li>
+                    </ul>
+                  </li>
+                  <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="contactus-final.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!--FORM-->
+<div style="z-index:1;" class="bind"></div>
+<div style="z-index:-999;" class="border2"></div>
+<div class="con">
+	<div class="box">
+    	<div class="kh-container">
+        <div class="kh-header">
+        	<div class="logo">
+                <div class="name">
+                	<h1>CUSTOM-MADE CAKE ORDER FORM</h1>
+                </div>
+            </div>
+        </div></a>
+    	</div>
+        <form name="contactform">
+   			<label class="name">Name</label><br/><br/><input type="text" placeholder="Enter your full name" class="form_control" name="Name" required/><br/>
+   			<label class="name">Telephone Number</label><br/><br/><input type="tel" placeholder="Enter your telephone number" class="form_control" name="Number" required/><br/>
+   			<label class="name">Address</label><br/><br/><input type="text" placeholder="Enter your address" class="form_control" name="Address" /><br/>
+   			<label class="name">Type of Event</label><br/><br/><input type="text" placeholder="Specify the type of event" class="form_control" name="Event" /><br/>
+			<hr>
+            <hr>
+        </form>
+        <form name="contactform2">
+            <h2>CAKE SHAPE AND SIZE</h1>
+            <label>Round</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">6 inch(serves 12)</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">8 inch(serves 24)</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">10 inch(serves 38)</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">12 inch(serves 56)</label><br/><br/>
+			<br/>
+            <label>Tiered</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">6 and 8 inch(serves 36)</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">8 and 10 inch(serves 62)</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">10 and 12 inch(serves 94)</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">6-8-10 inch(serves 74)</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">8-10-12 inch(serves 118)</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">6-8-10-12 inch(serves 130)</label><br/><br/>
+			<br/>
+            <label>Custom</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter;">Servings vary</label><br/><br/>
+			<hr>
+            <hr>
+        </form>
+        <form name="contactform3">
+            <h2>FLAVOUR</h1>
+            <label>Cake</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Chocolate</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Vanilla</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Cinnamon</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Butterschotch</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Coffee</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Red Velvet</label><br/><br/>
+			<hr>
+        </form>
+        <form name="contactform4">
+            <label>Filling</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Oreo Cookies and Cream</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Strawberry</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Cocunt</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Chocolate</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Mango</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">No Filling</label><br/><br/>
+			<hr>
+        </form>
+        <form name="contactform5">
+            <label>Icing</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Vanilla</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Chocolate</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Cream Cheese</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Cinnamon Cream Cheese</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Cinnamon Vanilla Swirl</label><br/><br/>
+			<hr>
+            <hr>
+        </form>
+        <form name="contactform6">
+        <h2>CAKE DESIGN</h1>
+        	<label>Main Color</label><br/><br/><input type="text" placeholder="" class="form_control" name="MColor" required/><br/>
+   			<label>Accent Colors</label><br/><br/><input type="text" placeholder="" class="form_control" name="AColor" required/><br/>
+            <label>Cake Covering</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Fondant</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Frosting</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Rose Design</label><br/><br/>
+			<hr>
+        </form>
+        <form name="contactform7">
+            <label>Fondant/Gumpaste Design</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Numbers</label><br/><br/>
+               	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Letters</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Roses</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Ribbon</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Figure(animal, sports item, character, etc.)</label><br/><br/>
+			<hr>
+        </form>
+        <form name="contactform8">
+            <label>Buttercream Designs</label><br/><br/>
+            	<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Roses</label><br/><br/>
+               	<label style="font-size:14; font-weight:lighter">Piping</label><br/><br/>
+                	&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Writing</label><br/><br/>
+            		&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="rb"/><label style="font-size:14; font-weight:lighter">Decorative</label><br/><br/>              	
+			<hr>
+            <hr>
+        </form>
+        <form name="contactform9">
+             <label>Other Specifications</label><br/><br/><textarea style="width:100%;"></textarea><br/>
+        </form>
+        <form style="text-align:center;" name="contactform10">
+			<input style="margin-top:45px; background-color:#f00; color:#fff; font-weight:bold" type="button" value="Submit Form" onClick="loadFunction()"/>
+        </form>
+    </div>
+</div>
+
+<!--FOOTER-->
+<div style="margin-top: -30px;" class="footr">
+	<div style=" top: -32px; z-index:999;" class="bind"></div>
+    <div style="top: -65px; z-index:1;" class="border2"></div>   
+    <div class="one">
+    	<iframe class="sitemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d343.61692918195524!2d80.26744117964697!3d12.998580363330959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267fa448b7c59%3A0xdc1b35021a664af7!2sSugarrush!5e0!3m2!1sen!2sin!4v1487852207389" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="two">
+    	<div class="logo">
+            	<div class="img">
+                </div>
+                <div class="name"><h1>SUGAR RUSH</h1>
+                </div>
+        </div>
+        <div class="abt-us">
+        	<h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa adipiscing.elit. Aenean commodo ligula eget dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa adipiscing.</p>
+        </div>
+        <div class="contact-us">
+        	<h3>Contact Us</h3>
+            <div class="add">
+            	<div class="img"></div>
+                <div class="desc">
+                	<p>Gochs Colony, Besant Nagar, Chennai</p>
+                </div>
+            </div>
+            <div class="phone">
+            	<div class="img"></div>
+                <div class="desc">
+                	<p>044 6553 0111</p>
+                </div>
+            </div>
+            <div class="timing">
+            	<div class="img"></div>
+                <div class="desc">
+                	<p>Mo-Fr:11-00, &nbsp; Sa-Su:15-00</p>
+                </div>
+            </div>
+            <div class="mail">
+            	<div class="img"></div>
+                <div class="desc">
+                <P>info@demolink.org</P>
+                </div>
+            </div>
+        </div>
+        <div class="instagrm">
+        	<h3>Instagram</h3>
+            <div class="inst-container">
+            	<div class="r1">
+                	<div class="i11">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i12">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i13">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="r2">
+                	<div class="i21">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i22">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i23">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border3"></div>
+    <div class="three">
+        <div class="copyright">
+        	<p>© 2017 Sugar Rush. All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+        <div class="social">
+            <ul class="icon">
+                <li class="youtube">
+                    <a href="#"></a>
+                </li>
+                <li class="twitter">
+                    <a href="#"></a>
+                </li>
+                <li class="rss">
+                    <a href="#"></a>
+                </li>
+                <li class="pinterest">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+     </div>
+</div>
+</body>
+</html>
+
+

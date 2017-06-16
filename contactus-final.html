@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SUGAR RUSH - Contact Us</title>
+<link rel="stylesheet" type="text/css" href="css/contactus-final.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<style>
+@import url("Slabo27px_Regular/stylesheet.css");
+
+.jumbotron{
+	background-image:url(images/slider.png); 
+	background-size:cover; 
+	background-position:center; 
+}
+
+.navbar-inverse {
+  background-color:rgba(0,0,0,.65);
+  border-radius:40px;
+  z-index:999;
+  /*border-color: #CCC;*/
+}
+
+label{
+	font-family: "Slabo27px Regular";
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+}
+.form-control{
+	width:490px;
+	height:40px;
+	margin-bottom:20px;
+	padding-left:10px;
+	background-color:#fff;	
+}
+
+</style>
+<link href="Rancho_Regular/stylesheet.css" rel="stylesheet" type="text/css">
+<script>
+function loadFunction(){
+	alert("Message successfully sent.");
+}
+</script>
+</head>
+
+<body>
+<!--HEADER_SLIDER-->
+<div class="jumbotron">
+	<div class="container">
+    	<nav class="navbar navbar-inverse">
+        	<div class="container-fluid">
+           	  <div class="navbar-header">
+               	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    	<span class="sr-only">Toggle navigation</span>
+                    	<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>  
+                      <a class="navbar-brand" href="#">
+                          <span><img src="images/logo_final.png" width="107" height="80" alt="sugar_rush_logo"/></span>
+                          <span style="font-family: 'Rancho Regular'; font-size: 28px; color: rgb(241,9,9); font-weight: bold; position: relative; top: 5px;" class="nm">SUGAR RUSH</span>
+                      </a>         
+                </div>
+                
+                <div id="navbar" class="navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                  <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="index.html">Welcome</a></li>
+				  <li class="dropdown">
+                    <a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #know_us">Know Us</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #review">Testimonials</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #team">Meet Our Team</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Creations <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #new_arrivals">New Arrivals</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #our_creation">Our Creation</a></li>
+                      <li><a style="font-family: 'Slabo27px Regular'; font-size: 18px; line-height: 35px" href="index.html #your_creation">Your Creation</a></li>
+                    </ul>
+                  </li>
+                  <li class="active"><a style="font-family: 'Slabo27px Regular'; font-size: 18px;" href="contactus-final.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!--FORM-->
+<div style="position: relative;top: 10px;margin-bottom: 30px;" class="form">
+	<div style="top: -35px;z-index: 1;" class="bind"></div>
+    <div style="top: -65px;z-index: 0;" class="border2"></div>
+    <div style="position: relative;top: -60px;" class="con"> 
+        <div style="position: relative;top: 30px;" class="kh-container">
+        <div class="kh-header">
+        	<div class="logo">
+                <div class="name">
+                	<h1>CONTACT FORM</h1>
+                </div>
+            </div>
+        </div></a>
+    </div>
+        <form style="width: 50%;margin: auto;" name="contactform">
+        	<div class="form-group">
+             <label></label>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><span class="fa fa-user"></span></span>
+                    <input type="text" class="form-control" placeholder="Name" id="name" required/>
+                </div>
+            </div>
+            <div class="form-group">
+             <label></label>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><span class="fa fa-phone"></span></span>
+                    <input type="text" class="form-control" placeholder="Phone" id="number" required/>
+                </div>
+            </div>
+            <div class="form-group">
+             <label></label>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><span  style="height:2px;" class="fa fa-envelope"></span></span>
+                    <input type="email" class="form-control" placeholder="Email" id="email" required/>
+                </div>
+            </div>
+            <div class="form-group">
+             <label></label>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><span style="font-size:25px;" class="fa fa-pencil-square"></span></span>
+                    <textarea style="width:100%;" placeholder="Message" required></textarea>
+                </div>
+            </div>
+        </form>
+        <form style="width:100%; text-align:center;" name="contactform10">
+			<input style="height:40px;  background-color:#f00; color:#fff; padding:5px; font-family:'Slabo27px Regular'" type="button" value="Send Query"  onClick="loadFunction()"/>
+        </form>
+    </div>
+</div>            
+            
+<!--FOOTER-->
+<div class="footr">
+	<div style="top: -35px;" class="bind"></div>
+    <div style="top: -65px;" class="border2"></div>   
+    <div class="one">
+    	<iframe class="sitemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d343.61692918195524!2d80.26744117964697!3d12.998580363330959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267fa448b7c59%3A0xdc1b35021a664af7!2sSugarrush!5e0!3m2!1sen!2sin!4v1487852207389" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="two">
+    	<div class="logo">
+            	<div class="img">
+                </div>
+                <div class="name"><h1>SUGAR RUSH</h1>
+                </div>
+        </div>
+        <div class="abt-us">
+        	<h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa adipiscing.elit. Aenean commodo ligula eget dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa adipiscing.</p>
+        </div>
+        <div class="contact-us">
+        	<h3>Contact Us</h3>
+            <div class="add">
+            	<div class="img"></div>
+                <div class="desc">
+                	<p>Gochs Colony, Besant Nagar, Chennai</p>
+                </div>
+            </div>
+            <div class="phone">
+            	<div class="img"></div>
+                <div class="desc">
+                	<p>044 6553 0111</p>
+                </div>
+            </div>
+            <div class="timing">
+            	<div class="img"></div>
+                <div class="desc">
+                	<p>Mo-Fr:11-00, &nbsp; Sa-Su:15-00</p>
+                </div>
+            </div>
+            <div class="mail">
+            	<div class="img"></div>
+                <div class="desc">
+                <P>info@demolink.org</P>
+                </div>
+            </div>
+        </div>
+        <div class="instagrm">
+        	<h3>Instagram</h3>
+            <div class="inst-container">
+            	<div class="r1">
+                	<div class="i11">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i12">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i13">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="r2">
+                	<div class="i21">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i22">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                    <div class="i23">
+                    	<a class="an" href="#"><div class="ho">
+                            <div class="eye"></div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border3"></div>
+    <div class="three">
+        <div class="copyright">
+        	<p>© 2017 Sugar Rush. All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+        <div class="social">
+            <ul class="icon">
+                <li class="youtube">
+                    <a href="#"></a>
+                </li>
+                <li class="twitter">
+                    <a href="#"></a>
+                </li>
+                <li class="rss">
+                    <a href="#"></a>
+                </li>
+                <li class="pinterest">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+     </div>
+</div>
+</body>
+</html>
